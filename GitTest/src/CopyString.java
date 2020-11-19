@@ -7,6 +7,8 @@ public class CopyString {
 	public static void main(String[] args) {
 		System.out.println(new Scanner(System.in).useDelimiter("end").next().replace("\n", "\\n").replace("\t", "\\t"));
 		System.out.println(new Scanner(System.in).useDelimiter("end").next().replace("\n", "\\n").replace("\t", "\\t"));
+
+		System.out.println(new Scanner(System.in).useDelimiter("end").next().replace("\n", "\\n").replace("\t", "\\t"));
 		/*
 		 * Scanner scanner = new Scanner(System.in); String t = ""; String s = "";
 		 * while(scanner.hasNextLine()) { t += scanner.nextLine(); t += "\\n"; }; s =
